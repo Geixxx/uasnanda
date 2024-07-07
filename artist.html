@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #c2c0c0; /* Gray background */
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #969595;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+        background-color: gray;
+        color: white;
+        }
+
+        .content {
+        padding: 80px 20px; /* Adjusted padding to account for fixed navbar */
+        text-align: center;
+        }
+
+        .green-box {
+        background-color: #244c38;
+        padding: 20px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        height: 150px;
+        border-radius: 0px;
+        }
+
+        .green-box p {
+        margin: 0;
+        flex: 1;
+        text-align: right;
+        }
+
+        .profile-cover.top {
+            background-image:url("alhamdulillah.jpg");
+            background-size: cover;
+            background-position: center;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+
+        .profile-cover.bottom {
+            background-image:url("bismillah.jpg");
+            background-size: cover;
+            background-position: center;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+
+
+        .green-box.top p {
+            text-align: left;
+        color: white;
+        }
+
+        .green-box.bottom p {
+        color: black;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: #969595;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-sizing: border-box;
+        }
+
+        .footer div {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: black;
+        }
+
+        .footer img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .footer div h4 {
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="#artist">Artist</a>
+    <a href="aboutMe.html">About Me</a>
+</div>
+
+<div class="content">
+    <div class="green-box top">
+        <p>Ananda Nugraha, bernyanyi Lir-Ilir sejak tahun kemarin saat tirai hujan basahi aku.</p>
+        <div class="profile-cover top"></div>
+    </div>
+    <div class="green-box bottom">
+    <div class="profile-cover bottom"></div>
+    <p>Ia juga memacari rakyat lamongan, brondong yg bernama Ardelia.  </p>
+    </div>
+</div>
+
+<div class="footer">
+    <div>
+        <img src="image1.png" alt="Image 1" style="width:42px;height:42px;">
+        <h4>git hub</h4>
+    </div>
+    <div>
+        <a href="https://www.instagram.com/ananda.n_/"><img src="image2.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+        <h4>Instagram</h4>
+    </div>
+    <div>
+        <img src="image3.png" alt="Image 3" style="width:42px;height:42px;">
+        <h4>linkedId</h4>
+    </div>
+</div>
+</body>
+</html>

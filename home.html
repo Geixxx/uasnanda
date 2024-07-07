@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <style>
+    body {margin: 0;}
+
+    .navbar {
+    overflow: hidden;
+    background-color: #969595;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    }
+
+    .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    }
+
+    .navbar a:hover {
+    background-color: gray;
+    color: white;
+    }
+
+    .top-section {
+    background-color: #c2c0c0;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    }
+
+    .green-box {
+    background-color: #244c38;
+    width: 750px;
+    height: 180px;
+    margin: 0 auto 20px;
+    position: relative;
+    }
+
+    .arrow-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+
+    .arrow-left {
+    left: -16px;
+    background-color: #aaa8a8;
+    }
+
+    .arrow-right {
+    right: -16px;
+    background-color: #aaa8a8;
+    }
+
+    .arrow {
+    border: solid #244c38;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    }
+
+    .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    }
+
+    .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    }
+
+    .top-section h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 2em;
+    }
+
+    .top-section p {
+    margin: 0;
+    font-size: 1em;
+    }
+
+    .music-text {
+    background-color: #244c38;
+    padding: 150px 20px;
+    text-align: center;
+    color: white;
+    }
+
+    .music-text h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 2em;
+    }
+
+    .music-text p {
+    margin: 0;
+    font-size: 1em;
+    }    
+    .footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #969595;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    }
+
+    .footer div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    }
+
+    .footer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+
+    .footer div h4 {
+    margin: 0;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="artist.html">Artist</a>
+    <a href="aboutMe.html">About Me</a>
+</div>
+
+<div class="top-section">
+  <div class="green-box">
+    <div class="arrow-container arrow-left">
+      <i class="arrow left"></i>
+    </div>
+    <div class="arrow-container arrow-right">
+      <i class="arrow right"></i>
+    </div>
+</div>
+
+<h2>Musik</h2>
+<p>Musik (bahasa Yunani: μουσική)adalah nada atau suara yang disusun demikian rupa sehingga mengandung Ritme, lagu, dan keharmonisan. Musik terdiri<br>
+  dari beberapa unsur, yaitu melodi, harmoni, ritme, dan timbre.Musik termasuk sejenis fenomena intuisi, untuk mencipta, memperbaiki, dan<br>
+  mempersembahkannya dalam suatu bentuk seni. Musik adalah sebuah fenomena unik yang dihasilkan oleh beberapa alat musik.</p>
+</div>
+
+<div class="music-text">
+  <h2>Musik</h2>
+  <p><br>Lir ilir lir ilir tandure wong sumilir
+    <br>Tak ijo royo royo
+    <br> Tak sengguh panganten anyar</p>
+</div>
+
+<div class="footer">
+  <div>
+      <img src="image1.png" alt="Image 1" style="width:42px;height:42px;">
+      <h4>git hub</h4>
+  </div>
+  <div>
+      <a href="https://www.instagram.com/ananda.n_/"><img src="image2.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+      <h4>Instagram</h4>
+  </div>
+  <div>
+      <img src="image3.png" alt="Image 3" style="width:40px;height:40px;">
+      <h4>linkedId</h4>
+  </div>
+</div>
+</body>
+</html>
